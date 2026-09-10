@@ -1,0 +1,134 @@
+.logoImg
+{
+    max-height: 80px;
+    margin-left: 50px;
+}
+
+.nav-link
+{
+    color: maroon;
+    display: block;
+    height: 70px;
+    padding: 20px !important;
+}
+
+.nav-link:hover
+{
+    background: maroon;
+    color: white;
+}
+
+.title
+{
+    color: maroon;
+    font-family: Verdana;
+}
+
+.halfColor
+{
+    color: #07a002;
+}
+
+.wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.wrapper div
+{
+    border: 1px solid #07a002;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 992px)
+{
+    .wrapper
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px)
+{
+    .wrapper
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+.title2
+{
+    color: maroon;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img2
+{
+    max-height: 140px;
+}
+
+
+.wrapper2
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.wrapper2 div
+{
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 992px)
+{
+    .wrapper2
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px)
+{
+    .wrapper2
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+.fontIcons
+{
+    color: green;
+    font-size: 60px;
+}
+
+.readBtn
+{
+    padding: 10px 20px;
+    border: 1px solid green;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.readBtn:hover
+{
+    background-color: green;
+    color: white;
+}
+
+.socialIcons
+{
+    color: white;
+    font-size: 25px;
+    margin-right: 15px;
+}
